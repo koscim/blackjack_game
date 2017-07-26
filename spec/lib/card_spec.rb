@@ -1,8 +1,6 @@
 require "spec_helper"
 
 RSpec.describe Card do
-  # let (:card) { Card.new('2', '♠️')}
-  # Your tests here
   describe ".initialize" do
     it "creates a card with the correct rank and suit" do
       card = Card.new('2', '♠️')

@@ -15,5 +15,4 @@ RSpec.describe Deck do
       expect(card).to eq(last_card)
     end
   end
-  # Your tests here
 end
